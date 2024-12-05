@@ -14,11 +14,12 @@ body {
 
 /* Controls Section */
 .controls {
-  padding:10px 0;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
 }
-.controls:nth-child(all){
+
+.controls:nth-child(all) {
   margin-bottom: 10px;
 }
 
@@ -33,7 +34,7 @@ body {
   margin-bottom: 10px;
 }
 
-.controls button{
+.controls button {
   padding: 10px 15px;
   background-color: #007bff;
   color: white;
@@ -42,7 +43,8 @@ body {
   cursor: pointer;
   margin-bottom: 10px;
 }
-.actions button{
+
+.actions button {
   padding: 10px 15px;
   background-color: #007bff;
   color: white;
@@ -53,7 +55,8 @@ body {
 }
 
 
-.controls button:hover,.actions button:hover {
+.controls button:hover,
+.actions button:hover {
   background-color: #0056b3;
 }
 
@@ -135,6 +138,7 @@ body {
   width: 100%;
   margin-bottom: 10px;
 }
+
 /* Add general styles for the app */
 .app {
   font-family: Arial, sans-serif;
@@ -144,6 +148,7 @@ body {
 .controls {
   margin-bottom: 20px;
 }
+
 /* Edit section styles */
 .edit-section {
   margin-top: 20px;
@@ -217,17 +222,20 @@ body {
   text-align: left;
   margin-bottom: 20px;
 }
-.main{
+
+.main {
   display: flex;
   gap: 10%;
-  
+
 
 }
-.left{
+
+.left {
   width: 30%;
   padding: 15px;
   background-color: #f4f4f4;
 }
-.right{
+
+.right {
   width: 60%;
 }
