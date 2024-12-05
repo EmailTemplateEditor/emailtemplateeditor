@@ -144,8 +144,9 @@ const htmlContent = `
                           text-align: ${item.style.textAlign}; 
                           font-size: ${item.style.fontSize}; 
                           margin-bottom: 20px;">
-                ${item.content}
+                ${item.content}    
               </div>
+              // <p>mssklskx
             `;
           } else if (item.type === 'image') {
             return `
